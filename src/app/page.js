@@ -8,6 +8,7 @@ async function getData (){
 } 
 export default async function Home() {
   const res = await getData()
+  console.log(res)
   return (
     <div>
       Hello World
